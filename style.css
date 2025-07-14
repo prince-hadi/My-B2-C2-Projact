@@ -190,6 +190,7 @@ background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248)
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 70px;
 }
 
 .shos-bag-title h3{
@@ -208,24 +209,30 @@ background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248)
 
 .shos-card-containar{
     display: flex;
-    justify-content: space-between;
-    gap: 5px;
+    justify-content: center;
+    gap: 20px;
     flex: 1;
+
+
+}
+
+.backpack{
+    margin-bottom: 55px;
 
 }
 
 .card {
-    width: 360px;
+    width: 335px;
     background-color: #ffff;
     text-align: center;
-    padding: 25px;
+    padding: 14px;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
 .card img{
-    width: 336px;
-    height: 202px;
+    width: 290px;
+    height: 185px;
     margin: auto;
     margin-left: -33px;
 
@@ -243,7 +250,7 @@ background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248)
 
 .card span{
     font-family: inter;
-    color: #4e4e4e;
+    color: #4e4e4e80;
     padding-bottom:  0px;
     padding-top: 15px;
 
@@ -251,12 +258,13 @@ background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248)
 
 }
 
-.prais{
+.prais h2{
     font-size: 24px;
     font-family: poppins;
     color: #000000;
   padding-top: 15px;
   display: block;
+  padding-bottom: 0px;
 }
 
 .by-button{
@@ -265,9 +273,58 @@ background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248)
     padding: 10px 30px;
     border-radius: 5px;
     color: #f4f4f4;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 #bag{
     height: 300px;
+}
+
+.footer-box{
+    background-color: #fff2f1;
+text-align: center;
+align-items: center;
+    padding: 150px 20px;
+
+   
+
+
+}
+
+footer{
+     padding: 33px 180px ;
+    box-sizing: border-box;
+}
+
+.footer-box h1{
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #1f1f1f;
+    margin-bottom: 0px;
+}
+
+.footer-box span {
+    font-family: poppins;
+    color: #707070;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.input-section{
+    display: flex;
+    justify-content: center;
+}
+.input-section input{
+    font-family: poppins;
+    color: #cccccc;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 255px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+
+}
+#in-b{
+    border-radius: 0px 50px 50px 0px;
 }
